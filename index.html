@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video id="intro-video" width="600">
+        <source src="assets/video/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h1 id="game-title" style="display: none;">เกมจับคู่ทวนความจำ</h1>
+    <div id="game-board" style="display: none;">
+        <!-- Cards will be generated here by JavaScript -->
+    </div>
+    <div id="end-video-container" style="display: none; position: relative;">
+        <video id="end-video" width="600">
+            <source src="assets/video/end.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <audio id="bgm" loop>
+        <source src="assets/audio/bgm.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
